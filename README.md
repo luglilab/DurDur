@@ -1,5 +1,7 @@
 # DurDur
 
+![DurDur logo](image%20logo.png)
+
 `DurDur` is a unified Python package that combines ideas from three R/Bioconductor
 quality-control tools for flow cytometry:
 
