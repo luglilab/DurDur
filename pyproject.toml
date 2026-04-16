@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "durdur"
+version = "0.1.0"
+description = "Unified Python toolkit inspired by flowAI, flowClean, and PeacoQC for flow cytometry QC."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "GPL-3.0-or-later"}
+authors = [
+  {name = "Simone Puccio"},
+  {name = "Codex conversion scaffold"}
+]
+dependencies = [
+  "numpy>=1.20",
+  "pandas>=1.3",
+  "scipy>=1.7",
+  "matplotlib>=3.5"
+]
+
+[project.scripts]
+durdur = "durdur.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

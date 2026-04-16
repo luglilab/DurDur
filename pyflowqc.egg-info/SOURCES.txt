@@ -1,8 +1,0 @@
-README.md
-setup.cfg
-setup.py
-pyflowqc.egg-info/PKG-INFO
-pyflowqc.egg-info/SOURCES.txt
-pyflowqc.egg-info/dependency_links.txt
-pyflowqc.egg-info/requires.txt
-pyflowqc.egg-info/top_level.txt
